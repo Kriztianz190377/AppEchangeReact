@@ -1,0 +1,90 @@
+/*********MobilApplication***********/
+
+.group-App {
+    
+    width: 100%;
+}
+
+.group-App ul {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+.group-App ul li {
+    font-size: 20px;
+    margin: 10px 50px;   
+    list-style: none;
+    padding: 10px 20px ;
+}
+
+.group-App ul .linkli {
+    text-decoration: none;
+    color:#3878ff;    
+}
+.active{
+    border-bottom: solid 1px #3878ff;
+
+}
+
+/***************MobilAppLogin**********/
+
+#bodyForm {
+    background: #3878ff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#form {
+    background: white;
+    margin: 50px;
+    border: solid black 3px;
+    border-radius: 15px;
+    width: calc(100%/3);
+}
+
+#form h3 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0;
+    line-height: 1;
+    padding: 20px;
+}
+
+#form-group {
+    margin: 25px 60px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+#form input {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#form input[type="checkbox"] {
+    height: 25px;
+    width: 5%;
+    margin-right: 25px;
+}
+
+#signIn-Forgot {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+}
+
+#signIn-Forgot button {
+    margin-left: calc(100%/3)
+}
+
+#signIn-Forgot button, #signIn-Forgot p {
+    margin-bottom: 20px;
+}

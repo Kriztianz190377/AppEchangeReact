@@ -1,0 +1,6 @@
+.iconmoney {
+    background: white;
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+}

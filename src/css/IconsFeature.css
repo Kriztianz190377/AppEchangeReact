@@ -1,0 +1,48 @@
+
+
+#feature-boxs img{
+    margin-top: 30px;
+    opacity: 0.8;
+}
+#feature-boxs p{
+    margin-top: 20px;
+    width: 150px;
+    text-align: justify;
+    color: white;;
+}
+#flutter{      
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+    align-items: center;    
+}
+.flutter-box{
+    width: 40%;    
+}
+.flutter-box p{
+    color: white;
+    margin-left:50px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+#flutter{      
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    flex-flow: wrap row;
+    align-items: center;    
+}
+.flutter-box{
+    width: 40%;    
+}
+.flutter-box p{
+    color: white;
+    margin-left:50px;
+    margin-bottom: 30px;
+    text-align: justify;
+}

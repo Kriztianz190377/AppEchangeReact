@@ -1,0 +1,87 @@
+#packagePricing {
+    background: #3878ff;
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+    display: flex;
+    flex-flow: wrap column;
+    text-align: center;
+}
+
+#textHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#textHeader h1 {
+    font-size: 70px;
+}
+
+#textHeader h1:first-child {
+    margin-top: 50px;
+}
+
+#textHeader h3 {
+    margin-top: 50px;
+}
+
+#tablaOmibro {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tg {
+    display: table;
+    text-align: center;
+    margin: auto 0px;
+    width: 80%;
+    color: white;
+}
+
+.tg th {
+    border-color: rgb(90, 173, 206);
+    border-bottom-style: solid;
+    border-width: 3px;
+    font-size: 30px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg tbody {
+    background: rgba(128, 128, 128, 0.3);
+}
+
+.tg td {
+    border-color: rgb(90, 173, 206);
+    border-bottom-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 15px 5px;
+    word-break: keep-all;
+}
+
+#pocess {width: 100%;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    color: navy;
+}
+
+/*<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+<div class="tg-wrap"><table class="tg">*/

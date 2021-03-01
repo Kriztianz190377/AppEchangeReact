@@ -1,0 +1,60 @@
+.sectionfive {
+    background: white;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionfive .items {
+    
+    margin: auto 0px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width:885px) {
+    .sectionfive .items {
+                width: 100%
+    }
+    #section-five .icon-five, .icon-five {
+        width: 80px !important;
+        margin-left: 50px !important;
+        margin-right: 50px !important;
+
+    }
+}
+
+#section-five .icon-five, .icon-five {
+    display: block;
+    text-align: center;
+    line-height: 130px;
+    border-radius: 50px;
+    width: 130px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 110px;
+    transition: 500ms all;
+}
+
+#section-five .icon-five:hover, #section-eight .icon-five:hover {
+    background: white;
+    box-shadow: 1px 1px #264b5d;
+}
+
+#section-five .icon-five a, #section-eight .icon-five a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#section-five .icon-five:hover a, #section-eight .icon-five:hover a {
+    color: red;
+}
