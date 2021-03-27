@@ -29,14 +29,11 @@ html {
     z-index: 10;
 }
 
-#left a {
-   
-    font-size: 50px;
-    text-decoration: none;
-    color: #3878ff;;
+#left img {
     height: 50px;
     transform: scale(1.5);
-    margin-left: 30px;    
+    margin-left: 30px;
+    border-radius: 0px;
     cursor: pointer;
 }
 
@@ -62,24 +59,22 @@ html {
     width: 140px;
     list-style: none;
     text-align: center;
-    transition: 1000ms all;
+    transition: 700ms all;
 }
 
 .menu ul li:hover {
     background: #3878ff;
     border-radius: 25px;
-    
 }
+
 .menu ul a {
     text-decoration: none;
     color: #3878ff;
-    transition: 700ms all;
-}
-.menu ul li:hover a {
-    color: white;
-    
 }
 
+.menu ul li:hover a {
+    color: white;
+}
 
 #droit label {
     display: none;
@@ -531,6 +526,7 @@ html {
     text-align: justify;
     margin-top: 50px;
     font-weight: bold;
+    margin-right: 200px;
 }
 
 /**********************************sectioneleven*********************/
@@ -743,7 +739,7 @@ textarea:hover {
     margin-top: 120px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px #ccc, 1px 1px 2px #ccc;
-    border: 1px solid#ff0000;
+    border-radius: 10px;
     box-shadow: 0px 0px 4px #ccc;
     background: #3878ff;
     position: absolute;

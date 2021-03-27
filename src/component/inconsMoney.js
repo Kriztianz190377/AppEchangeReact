@@ -6,6 +6,8 @@ import '../css/IconsMomey.css';
 
 const IconMoney =(props) =>{
     
+console.log(props)
+
         return (
 
             <section className="section-three" >

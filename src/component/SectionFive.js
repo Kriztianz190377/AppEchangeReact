@@ -19,44 +19,44 @@ function SectionFive() {
     <div className="sectionfive">
       <div className='items'>
 
-      <IconSectionFive
-      picture={Google}
-      />
-      <IconSectionFive
-      picture={Tencent}
-      />
-      <IconSectionFive
-      picture={Ebay}
-      /> 
-      <IconSectionFive
-      picture={Philips}
-      /> 
-      <IconSectionFive
-      picture={Square}
-      /> 
-      <IconSectionFive
-      picture={Nubank}
-      /> 
-      <IconSectionFive
-      picture={Abbey}
-      /> 
-      <IconSectionFive
-      picture={Baidu}
-      />
-      <IconSectionFive
-      picture={ByteDance}
-      /> 
-      <IconSectionFive
-      picture={Alibaba}
-      />
-      <IconSectionFive
-      picture={Realtor}
-      />
-      
-       
+        <IconSectionFive
+          picture={Google}
+        />
+        <IconSectionFive
+          picture={Tencent}
+        />
+        <IconSectionFive
+          picture={Ebay}
+        />
+        <IconSectionFive
+          picture={Philips}
+        />
+        <IconSectionFive
+          picture={Square}
+        />
+        <IconSectionFive
+          picture={Nubank}
+        />
+        <IconSectionFive
+          picture={Abbey}
+        />
+        <IconSectionFive
+          picture={Baidu}
+        />
+        <IconSectionFive
+          picture={ByteDance}
+        />
+        <IconSectionFive
+          picture={Alibaba}
+        />
+        <IconSectionFive
+          picture={Realtor}
+        />
+
+
       </div>
 
-      
+
 
     </div>
   );

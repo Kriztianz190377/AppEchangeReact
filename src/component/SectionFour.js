@@ -45,23 +45,27 @@ function Feature() {
 
       <div id="flutter">
         <div className="flutter-box">
-          <img src={FluterBox} alt="/"  style={{width:'750px', height:'410px'}}/>
+          <img src={FluterBox} alt="/" style={{ width: '750px', height: '410px' }} />
         </div>
         <div className="flutter-box" >
-          <p>Flutter Framework and Dart Programming Language are at
-          the core of OmniBro Front-End interface. Developed by
-          Google to build Mobile, Desktop, Server and Web
-          Applications of the next generation, Flutter became a
-          perfect match for OmniBro.</p> <br />
-          <p>Building beautiful and natively compiled applications,
-          OmniBro team chose Flutter Framework as a cost efficient
-          solution for application development and maintenance.
-          Join the ranks with some of the world's leading brands,
-                            IT giants and FinTech companies.</p>
+          <p>is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum</p> <br />
+          <p>is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                            software like Aldus PageMaker including versions of Lorem Ipsum</p>
         </div>
       </div>
 
-      </div>
+    </div>
   );
 }
 
